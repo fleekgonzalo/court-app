@@ -9,6 +9,7 @@
     "build:app": "next build",
     "build:dependencies": "yarn workspace @nation3/ui-components build:all",
     "start": "next start",
+    "export": "next export",
     "lint:check": "yarn lint:check:format && yarn lint:check:eslint",
     "lint:check:eslint": "next lint",
     "lint:check:format": "prettier --check **/*.tsx",
