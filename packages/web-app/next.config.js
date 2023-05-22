@@ -9,5 +9,5 @@ module.exports = withTM({
 	images: {
 		domains: ["https://picsum.photos/"],
 	},
-	i18n,
+	
 });
